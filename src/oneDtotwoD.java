@@ -45,6 +45,7 @@ public class oneDtotwoD {
         for (int i = 0; i < original.length; i++) {
             // Satır için: i / n, Sütun için: i % n
             result[i / n][i % n] = original[i];
+            //deneme
         }
 
         return result;
